@@ -24,3 +24,5 @@ def count(request):
     '''
     https://www.geeksforgeeks.org/python-dictionary-items-method/
     '''
+def about(request):
+    return render(request, 'about.html')
